@@ -9,6 +9,6 @@ def roll
   
   #for extra fun solve using an array after using ranges
   numArray = [1,2,3,4,5,6]
-  numArray[rand(0..numArray.length)]
+  numArray[rand(0..numArray.size)]
   
 end
